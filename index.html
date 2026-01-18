@@ -4,13 +4,11 @@
       <meta charset="utf-8">
       
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-      <link rel="stylesheet" href="./css/styles.css"/>
-
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="./css/styles.css"/>
 
     <title>
         WebStudio
@@ -20,7 +18,9 @@
     <header>
 
 
-        <div class="main-link"> <a href="./index.html"><span class="web-link">WEB</span>STUDIO</a></div><br />
+        <div>
+            <a href="./index.html" class="main-link"><span class="web-link">WEB</span>STUDIO</a>
+        </div>
         
         <nav>
             <ul class="navi">
@@ -28,11 +28,11 @@
                 <li><a href="#portfolio" class="navi-link">Portfolio</a></li>
                 <li><a href="#contacts" class="navi-link">Contacts</a></li>
             </ul>
-        </nav> <br />
+        </nav> 
 
-        <address >
-            <a href="mailto:info@devstudio.com" id="address-link">info@devstudio.com</a> <br />
-            <a href="tel:+110001111111" id="address-link">+11 (000) 111-11-11</a>
+        <address class="contacts">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a> 
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
 
         </address>
         
@@ -93,25 +93,25 @@
                     <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260"/>
                     <h3>Mark Guerrero</h3>
                     <p>Product Designer</p>
-                </li> <br />
+                </li> 
 
                 <li class="tom-card">
                     <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260"/>
                     <h3>Tom Ford</h3>
                     <p>Frontend Developer</p>
-                </li> <br />
+                </li> 
 
                 <li class="camila-card">
                     <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260"/>
                     <h3>Camila Garcia</h3>
                     <p>Marketing</p>
-                </li> <br />
+                </li> 
 
                 <li class="daniel-card">
                     <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260"/>
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
-                </li> <br />
+                </li> 
 
 
 
@@ -172,8 +172,8 @@
 
     <footer>
         
-        <a href="./index.html">WebStudio</a>
-        <p>
+        <div class="footer-link"> <a href="./index.html"><span class="web-footer">WEB</span><span class="studio-footer">STUDIO</span></a></div>
+        <p class="footer-text">
             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         </p>
 
