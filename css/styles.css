@@ -41,10 +41,10 @@ footer{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
     color: #F4F4FD;
     line-height: 1.16;
-    letter-spacing: 0.54em;
+    letter-spacing: 0.03em;
     
 }
 
@@ -56,7 +56,7 @@ footer{
     font-weight: 400;
     font-style: normal;    
     line-height: 1.5;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 
 }
@@ -83,10 +83,10 @@ address.contacts:focus{
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
     color: #2E2F42;
     line-height: 1.16;
-    letter-spacing: 0.54em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 
 }
@@ -94,6 +94,7 @@ address.contacts:focus{
 .web-link{
     color: #4D5AE5;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .navi{
@@ -104,7 +105,7 @@ address.contacts:focus{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    font-style: medium;
+    font-style: normal;
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -126,7 +127,7 @@ address.contacts:focus{
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -134,16 +135,13 @@ address.contacts:focus{
 
 .button-order{
     cursor: pointer;
-    width: 169px;
-    height: 56px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    font-style: medium;
+    font-style: normal;
     color: #FFFFFF;
     background-color: #4D5AE5;
     border: none;
-    border-radius: 4px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
@@ -195,9 +193,10 @@ address.contacts:focus{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    background-color: #FFFFFF;
 }
 
 .team-describe{
@@ -205,9 +204,10 @@ address.contacts:focus{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    background-color: #FFFFFF;
 
 }
 
@@ -215,7 +215,7 @@ address.contacts:focus{
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
     line-height: 1.11;
     letter-spacing: 0.72em;
     text-align: center;
@@ -228,21 +228,21 @@ address.contacts:focus{
 
 }
 
-.portfolio-list > h3{
+.portfolio-title{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    font-style: medium;
+    font-style: normal;
     line-height: 1.2;
     letter-spacing: 0.4em;
     color: #2E2F42;
 }
 
-.portfolio-list > p{
+.portfolio-describe > p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    font-style: regular;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.32em;
     color: #434455;
