@@ -15,7 +15,7 @@ header{
 
 a{
     text-decoration: none;
-    color: #2E2F42;
+    
 
 }
 
@@ -150,7 +150,7 @@ address.contacts:focus{
 
 .button-order:hover,
 .button-order:focus{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .features-titel{
@@ -170,7 +170,7 @@ address.contacts:focus{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
 
 }
 
@@ -186,134 +186,28 @@ address.contacts:focus{
     line-height: 1.11;
     font-weight: 700;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 
 }
 
-.mark-card{
-    text-align: left;
-    width: 1440px;
-    height: 360px;
-    background-color: #FFFFFF;
-    
-}
-
-.mark-card > h3{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.2;
-    letter-spacing: 0.4em;
-    color: #2E2F42;
+.team-name{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-style: medium;
-
-}
-
-.mark-card > p{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5;
-    letter-spacing: 0.32em;
-    color: #2E2F42;
-    font-weight: 400;
-    font-style: normal;
-
-}
-
-.tom-card{
-    text-align: left;
-    width: 1440px;
-    height: 360px;
-    background-color: #FFFFFF;
-    
-}
-
-.tom-card > h3{
-    font-family: "Roboto", sans-serif;
     font-size: 20px;
-    text-align: center;
     line-height: 1.2;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.02;
+    text-align: center;
     color: #2E2F42;
-    font-weight: 500;
-    font-style: medium;
-
 }
 
-.tom-card > p{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5;
-    letter-spacing: 0.32em;
-    color: #2E2F42;
+.team-describe{
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-style: normal;
-
-}
-
-.camila-card{
-    text-align: left;
-    width: 1440px;
-    height: 360px;
-    background-color: #FFFFFF;
-    
-}
-
-.camila-card > h3{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.2;
-    letter-spacing: 0.4em;
-    color: #2E2F42;
-    font-weight: 500;
-    font-style: medium;
-
-}
-
-.camila-card > p{
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    text-align: center;
     line-height: 1.5;
-    letter-spacing: 0.32em;
-    color: #2E2F42;
-    font-weight: 400;
-    font-style: normal;
-
-}
-
-.daniel-card{
-    text-align: left;
-    width: 1440px;
-    height: 360px;
-    background-color: #FFFFFF;
-    
-}
-
-.daniel-card > h3{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    letter-spacing: 0.02;
     text-align: center;
-    line-height: 1.2;
-    letter-spacing: 0.4;
-    color: #2E2F42;
-    font-weight: 500;
-    font-style: medium;
-
-}
-
-.daniel-card > p{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5;
-    letter-spacing: 0.32em;
-    color: #2E2F42;
-    font-weight: 400;
-    font-style: normal;
+    color: #434455;
 
 }
 
