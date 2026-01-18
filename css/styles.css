@@ -8,7 +8,7 @@ body{
 
 header{
     background-color: #FFFFFF;
-    letter-spacing: 1.12em;
+    letter-spacing: 0.03em;
     line-height: 1.07;
 }
 
@@ -71,6 +71,11 @@ address.contacts{
     color: #2E2F42;
 }
 
+address.contacts:hover,
+address.contacts:focus{
+    color: #404BBF;
+}
+
 
 
 
@@ -102,7 +107,7 @@ address.contacts{
     font-style: medium;
     color: #2E2F42;
     line-height: 1.5;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.02em;
 }
 
 .navi .navi-link:hover,
@@ -123,9 +128,12 @@ address.contacts{
     font-weight: 700;
     font-style: bold;
     text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .button-order{
+    cursor: pointer;
     width: 169px;
     height: 56px;
     font-family: 'Roboto', sans-serif;
@@ -136,6 +144,34 @@ address.contacts{
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button-order:hover,
+.button-order:focus{
+    color: #404BBF;
+}
+
+.features-titel{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-describe{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
 }
 
 .team{
