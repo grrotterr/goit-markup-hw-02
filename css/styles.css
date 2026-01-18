@@ -1,6 +1,8 @@
 body{
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
+    line-height: 1.5;
 
 }
 
@@ -21,12 +23,6 @@ ul{
 }
 
 footer{
-    
-    left: 0;
-    bottom: 0;
-    width: 1440px;
-    height: 200px;
-    padding-top:100px;
     background-color: #2E2F42;
 }
 
@@ -45,7 +41,7 @@ footer{
     font-style: bold;
     color: #F4F4FD;
     line-height: 1.16;
-    letter-spacing: 0.54;
+    letter-spacing: 0.54em;
     
 }
 
@@ -54,12 +50,10 @@ footer{
 .footer-text{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-
     font-weight: 400;
     font-style: normal;    
-
     line-height: 1.5;
-    letter-spacing: 0.32;
+    letter-spacing: 0.32em;
     color: #F4F4FD;
 
 }
@@ -70,7 +64,7 @@ address.contacts{
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: 0.32;
+    letter-spacing: 0.32em;
     color: #2E2F42;
 }
 
@@ -84,7 +78,7 @@ address.contacts{
     font-style: bold;
     color: #2E2F42;
     line-height: 1.16;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.54em;
     text-transform: uppercase;
 
 }
@@ -109,8 +103,6 @@ address.contacts{
 }
 
 #main-section{
-    width: 1440px;
-    height: 170px;
     background-color: #2E2F42;
 
 }
@@ -140,8 +132,6 @@ address.contacts{
 
 #team{
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 1550px;
     font-family: "Roboto", sans-serif;
 }
 
@@ -168,7 +158,7 @@ address.contacts{
     font-size: 20px;
     text-align: center;
     line-height: 1.2;
-    letter-spacing: 0.4;
+    letter-spacing: 0.4em;
     color: #2E2F42;
     font-weight: 500;
     font-style: medium;
@@ -180,7 +170,7 @@ address.contacts{
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
-    letter-spacing: 0.32;
+    letter-spacing: 0.32em;
     color: #2E2F42;
     font-weight: 400;
     font-style: normal;
@@ -200,7 +190,7 @@ address.contacts{
     font-size: 20px;
     text-align: center;
     line-height: 1.2;
-    letter-spacing: 0.4;
+    letter-spacing: 0.4em;
     color: #2E2F42;
     font-weight: 500;
     font-style: medium;
@@ -212,7 +202,7 @@ address.contacts{
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
-    letter-spacing: 0.32;
+    letter-spacing: 0.32em;
     color: #2E2F42;
     font-weight: 400;
     font-style: normal;
@@ -232,7 +222,7 @@ address.contacts{
     font-size: 20px;
     text-align: center;
     line-height: 1.2;
-    letter-spacing: 0.4;
+    letter-spacing: 0.4em;
     color: #2E2F42;
     font-weight: 500;
     font-style: medium;
@@ -244,7 +234,7 @@ address.contacts{
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
-    letter-spacing: 0.32;
+    letter-spacing: 0.32em;
     color: #2E2F42;
     font-weight: 400;
     font-style: normal;
@@ -276,7 +266,7 @@ address.contacts{
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
-    letter-spacing: 0.32;
+    letter-spacing: 0.32em;
     color: #2E2F42;
     font-weight: 400;
     font-style: normal;
@@ -289,7 +279,7 @@ address.contacts{
     font-weight: 700;
     font-style: bold;
     line-height: 1.11;
-    letter-spacing: 0.72;
+    letter-spacing: 0.72em;
     text-align: center;
     color: #2E2F42;
 
@@ -306,7 +296,7 @@ address.contacts{
     font-weight: 500;
     font-style: medium;
     line-height: 1.2;
-    letter-spacing: 0.4;
+    letter-spacing: 0.4em;
     color: #2E2F42;
 }
 
@@ -316,6 +306,6 @@ address.contacts{
     font-weight: 400;
     font-style: regular;
     line-height: 1.5;
-    letter-spacing: 0.32;
+    letter-spacing: 0.32em;
     color: #434455;
 }
