@@ -11,9 +11,7 @@ header{
 
 a{
     text-decoration: none;
-    
-    
-    
+
 }
 
 ul{
@@ -23,54 +21,77 @@ ul{
 }
 
 footer{
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 1440px;
-    height: 312px;
-    padding-top: 2988px;
+    height: 200px;
+    padding-top:100px;
+    background-color: #2E2F42;
+}
+
+.web-footer{
+    color: #4D5AE5;
+}
+
+.studio-footer{
+    color: #F4F4FD;
+}
+
+.footer-link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: bold;
+    color: #F4F4FD;
+    line-height: 1.16;
+    letter-spacing: 0.54;
+    
+}
+
+
+
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    font-weight: 400;
+    font-style: normal;    
+
+    line-height: 1.5;
+    letter-spacing: 0.32;
+    color: #F4F4FD;
 
 }
 
-address{
+address.contacts{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    font-style: regular;
-    color: #434455;
+    font-style: normal;
     line-height: 1.5;
-
+    letter-spacing: 0.32;
+    color: #2E2F42;
 }
 
-.adress-link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: regular;
-    color: #434455;
-    line-height: 1.5;
 
-}
-
-.adress .adress-link:hover,
-.adress .adress-link:focus{
-    color: #404BBF;
-}
 
 
 .main-link{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
     font-style: bold;
     color: #2E2F42;
     line-height: 1.16;
-    letter-spacing: 0.54;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
 
 .web-link{
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 .navi .navi-link{
@@ -82,9 +103,14 @@ address{
     line-height: 1.5;
 }
 
+.navi .navi-link:hover,
+.navi .navi-link:focus{
+    color: #404bbf;
+}
+
 #main-section{
     width: 1440px;
-    height: 200px;
+    height: 170px;
     background-color: #2E2F42;
 
 }
@@ -157,7 +183,7 @@ address{
     letter-spacing: 0.32;
     color: #2E2F42;
     font-weight: 400;
-    font-style: regular;
+    font-style: normal;
 
 }
 
@@ -189,7 +215,7 @@ address{
     letter-spacing: 0.32;
     color: #2E2F42;
     font-weight: 400;
-    font-style: regular;
+    font-style: normal;
 
 }
 
@@ -221,7 +247,7 @@ address{
     letter-spacing: 0.32;
     color: #2E2F42;
     font-weight: 400;
-    font-style: regular;
+    font-style: normal;
 
 }
 
@@ -253,7 +279,7 @@ address{
     letter-spacing: 0.32;
     color: #2E2F42;
     font-weight: 400;
-    font-style: regular;
+    font-style: normal;
 
 }
 
