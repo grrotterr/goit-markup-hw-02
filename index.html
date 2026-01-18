@@ -2,6 +2,16 @@
 <html lang="en">
   <head>
       <meta charset="utf-8">
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <link rel="stylesheet" href="./css/styles.css"/>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>
         WebStudio
     </title>
@@ -9,20 +19,20 @@
   <body>
     <header>
 
-        <a href="./index.html">WebStudio</a>
+
+        <div class="main-link"> <a href="./index.html"><span class="web-link">WEB</span>STUDIO</a></div><br />
         
-
         <nav>
-            <ul>
-                <li><a href="#studio">Studio</a></li>
-                <li><a href="portfolio">Portfolio</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+            <ul class="navi">
+                <li><a href="#studio" class="navi-link" >Studio</a></li>
+                <li><a href="#portfolio" class="navi-link">Portfolio</a></li>
+                <li><a href="#contacts" class="navi-link">Contacts</a></li>
             </ul>
-        </nav>
+        </nav> <br />
 
-        <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        <address >
+            <a href="mailto:info@devstudio.com" id="address-link">info@devstudio.com</a> <br />
+            <a href="tel:+110001111111" id="address-link">+11 (000) 111-11-11</a>
 
         </address>
         
@@ -32,11 +42,9 @@
 
     <main>
 
-      <section id="hero">
-
-      <h1>Effective Solutions for Your Business</h1>
-      
-      <button type="button">Order Service</button>
+      <section id="main-section">
+        <h1 class="hero">Effective Solutions for Your Business</h1>
+        <button type="button" class="button-order">Order Service</button>
         
       </section>
       
@@ -78,35 +86,86 @@
         </section>
 
         <section id="team">
-            <h2>Our Team</h2>
-        <ul>
-            <li>
-                <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260"/>
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
-            </li>
+            <h2 class="top-team">Our Team</h2>
+            
+            <ul>
+                <li class="mark-card">
+                    <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260"/>
+                    <h3>Mark Guerrero</h3>
+                    <p>Product Designer</p>
+                </li> <br />
 
-            <li>
-                <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260"/>
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
-            </li>
+                <li class="tom-card">
+                    <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260"/>
+                    <h3>Tom Ford</h3>
+                    <p>Frontend Developer</p>
+                </li> <br />
 
-            <li>
-                <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260"/>
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
-            </li>
+                <li class="camila-card">
+                    <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260"/>
+                    <h3>Camila Garcia</h3>
+                    <p>Marketing</p>
+                </li> <br />
 
-            <li>
-                <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260"/>
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
-            </li>
+                <li class="daniel-card">
+                    <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260"/>
+                    <h3>Daniel Wilson</h3>
+                    <p>UI Designer</p>
+                </li> <br />
 
 
 
         </ul>
+        </section>
+
+        <section id="portfolio">
+
+            <h2 class="top-portfolio">Our Portfolio</h2>
+
+            <ul class="portfolio-list">
+                <li class="banking-app">
+                    <img src="./images/banking-app.jpg" alt="banking-app" width="264" height="260">
+                    <h3>Banking App</h3>
+                    <p>App</p>
+                    
+                </li>
+
+                <li class="cashless-payment">
+                    <img src="./images/cashless-payment.png" alt="cashless-payment" width="264" height="260">
+                    <h3>Cashless Payment</h3>
+                    <p>Marketing</p>
+
+                </li>
+
+                <li class="meditaion-app">
+                    <img src="./images/meditation-app.png" alt="meditaion-app" width="264" height="260">
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+
+                </li>
+
+                <li class="taxi-service">
+                    <img src="./images/taxi-service.jpg" alt="taxi-service" width="264" height="260">
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+
+                </li>
+
+                <li class="screen-illustration">
+                    <img src="./images/screen-illustrations.jpg" alt="screen-illustration" width="264" height="260">
+                    <h3>Screen Illustrations</h3>
+                    <p>Design</p>
+
+                </li>
+
+                <li class="online-courses">
+                    <img src="./images/online-courses.jpg" alt="online-courses" width="264" height="260">
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
+
+                </li>
+            </ul>
+
         </section>
 
     </main>

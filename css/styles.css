@@ -1,0 +1,295 @@
+body{
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #434455;
+
+}
+
+header{
+    background-color: #FFFFFF;
+}
+
+
+a{
+    text-decoration: none;
+    
+    
+    
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+ 
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 1440px;
+    height: 312px;
+    padding-top: 2988px;
+
+}
+
+address{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: regular;
+    color: #434455;
+    line-height: 1.5;
+
+}
+
+.adress-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: regular;
+    color: #434455;
+    line-height: 1.5;
+
+}
+
+.adress .adress-link:hover,
+.adress .adress-link:focus{
+    color: #404BBF;
+}
+
+
+.main-link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: bold;
+    color: #2E2F42;
+    line-height: 1.16;
+    letter-spacing: 0.54;
+
+}
+
+.web-link{
+    color: #4D5AE5;
+}
+
+.navi .navi-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    color: #2E2F42;
+    line-height: 1.5;
+}
+
+#main-section{
+    width: 1440px;
+    height: 200px;
+    background-color: #2E2F42;
+
+}
+
+.hero{
+    
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+}
+
+.button-order{
+    width: 169px;
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+#team{
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 1550px;
+    font-family: "Roboto", sans-serif;
+}
+
+.top-team{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    color: #2E2F42;
+
+}
+
+.mark-card{
+    text-align: left;
+    width: 1440px;
+    height: 360px;
+    background-color: #FFFFFF;
+    
+}
+
+.mark-card > h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.4;
+    color: #2E2F42;
+    font-weight: 500;
+    font-style: medium;
+
+}
+
+.mark-card > p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.32;
+    color: #2E2F42;
+    font-weight: 400;
+    font-style: regular;
+
+}
+
+.tom-card{
+    text-align: left;
+    width: 1440px;
+    height: 360px;
+    background-color: #FFFFFF;
+    
+}
+
+.tom-card > h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.4;
+    color: #2E2F42;
+    font-weight: 500;
+    font-style: medium;
+
+}
+
+.tom-card > p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.32;
+    color: #2E2F42;
+    font-weight: 400;
+    font-style: regular;
+
+}
+
+.camila-card{
+    text-align: left;
+    width: 1440px;
+    height: 360px;
+    background-color: #FFFFFF;
+    
+}
+
+.camila-card > h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.4;
+    color: #2E2F42;
+    font-weight: 500;
+    font-style: medium;
+
+}
+
+.camila-card > p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.32;
+    color: #2E2F42;
+    font-weight: 400;
+    font-style: regular;
+
+}
+
+.daniel-card{
+    text-align: left;
+    width: 1440px;
+    height: 360px;
+    background-color: #FFFFFF;
+    
+}
+
+.daniel-card > h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.4;
+    color: #2E2F42;
+    font-weight: 500;
+    font-style: medium;
+
+}
+
+.daniel-card > p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.32;
+    color: #2E2F42;
+    font-weight: 400;
+    font-style: regular;
+
+}
+
+.top-portfolio{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 1.11;
+    letter-spacing: 0.72;
+    text-align: center;
+    color: #2E2F42;
+
+}
+
+.portfolio-list{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.portfolio-list > h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: medium;
+    line-height: 1.2;
+    letter-spacing: 0.4;
+    color: #2E2F42;
+}
+
+.portfolio-list > p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: regular;
+    line-height: 1.5;
+    letter-spacing: 0.32;
+    color: #434455;
+}
