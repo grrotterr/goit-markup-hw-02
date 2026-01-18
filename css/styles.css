@@ -8,11 +8,14 @@ body{
 
 header{
     background-color: #FFFFFF;
+    letter-spacing: 1.12em;
+    line-height: 1.07;
 }
 
 
 a{
     text-decoration: none;
+    color: #2E2F42;
 
 }
 
@@ -88,13 +91,18 @@ address.contacts{
     text-transform: uppercase;
 }
 
-.navi .navi-link{
+.navi{
+     font-family: 'Roboto', sans-serif;
+}
+
+.navi-link{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: medium;
     color: #2E2F42;
     line-height: 1.5;
+    letter-spacing: 0.32em;
 }
 
 .navi .navi-link:hover,
@@ -102,7 +110,7 @@ address.contacts{
     color: #404bbf;
 }
 
-#main-section{
+.main-section{
     background-color: #2E2F42;
 
 }
@@ -130,7 +138,7 @@ address.contacts{
     border-radius: 4px;
 }
 
-#team{
+.team{
     background-color: #F4F4FD;
     font-family: "Roboto", sans-serif;
 }
