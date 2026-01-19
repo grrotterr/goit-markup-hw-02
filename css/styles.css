@@ -8,13 +8,12 @@ body{
 
 header{
     background-color: #FFFFFF;
-    letter-spacing: 0.03em;
-    line-height: 1.07;
 }
 
 
 a{
     text-decoration: none;
+    color: #2E2F42;
     
 
 }
@@ -67,12 +66,39 @@ address.contacts{
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: left;
+}
+
+.mail-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    
+}
+
+.mail-link:hover,
+.mail-link:focus{
+    color: #404BBF;
+}
+
+.tel-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-address.contacts:hover,
-address.contacts:focus{
+.tel-link:hover,
+.tel-link:focus{
     color: #404BBF;
 }
 
@@ -85,8 +111,8 @@ address.contacts:focus{
     font-weight: 700;
     font-style: normal;
     color: #2E2F42;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 
 }
@@ -94,7 +120,7 @@ address.contacts:focus{
 .web-link{
     color: #4D5AE5;
     text-transform: uppercase;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 .navi{
@@ -188,6 +214,10 @@ address.contacts:focus{
 
 }
 
+.team-list{
+    background-color: #FFFFFF;
+}
+
 .team-name{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -196,7 +226,7 @@ address.contacts:focus{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    background-color: #FFFFFF;
+    
 }
 
 .team-describe{
@@ -207,7 +237,7 @@ address.contacts:focus{
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    background-color: #FFFFFF;
+    
 
 }
 
@@ -217,7 +247,7 @@ address.contacts:focus{
     font-weight: 700;
     font-style: normal;
     line-height: 1.11;
-    letter-spacing: 0.72em;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 
@@ -234,16 +264,16 @@ address.contacts:focus{
     font-weight: 500;
     font-style: normal;
     line-height: 1.2;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.portfolio-describe > p{
+.portfolio-describe{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.02em;
     color: #434455;
 }
